@@ -15,4 +15,3 @@ install:
 build_script:
   - chmod +x gradlew
   - ./gradlew test --info
-  - git update -index --chmod=+x gradlew
